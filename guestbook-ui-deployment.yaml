@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: gcr.io/google-samples/kubernetes-guestbook:v1
+      - image: docker.io/kubernetesui/guestbook:v1.0.0
         name: guestbook-ui
         ports:
         - containerPort: 80
